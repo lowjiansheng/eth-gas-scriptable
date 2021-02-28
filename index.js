@@ -12,8 +12,6 @@ let widget = new ListWidget();
 
 let response = await new Request(url).loadJSON();
 
-console.log(response["average"]);
-
 widget.addStack();
 titleElement = widget.addText(TITLE);
 titleElement.font = Font.title1();
